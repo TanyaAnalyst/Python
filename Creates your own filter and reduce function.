@@ -1,0 +1,27 @@
+def myreduce(add,list_1):
+    return a
+def add(a,b):
+    return a+b
+list_1=[10,15,25,40,10]
+a=list_1[0]
+for i in range(1,len(list_1)):
+    b=list_1[i]
+    a=add(a,b)
+print(myreduce(add,list_1))
+
+#own filter
+def myfilter(is_even,list_2):
+    return is_even(a)
+list_2=[2,3,4,5,6,7,8,9,10]
+list_3=[]
+def is_even(a):
+    for i in list_2:
+        if i%2==0:
+            list_3.append(i)
+    print(list_3)
+myfilter(is_even,list_2)
+
+
+output----
+100
+[2, 4, 6, 8, 10]
